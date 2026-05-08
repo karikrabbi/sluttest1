@@ -1,0 +1,226 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.dropdownbutton{
+    height: 90px;
+    width: 90px;
+    background-color: slateblue;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.dropdown{
+    position: relative;
+    display: none;
+    height: auto;
+    width: 150px;
+    background-color: darkgray;
+    border-top-left-radius: 40px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.dropdown a{
+    width: 150px;
+    text-align: center;
+    height: 40px;
+}
+
+.navigation{
+    height: 100px;
+    width: 100vw;
+    background-color: gray;
+    border-bottom: 5px solid black;
+}
+.navigation nav{
+    display: flex;
+    padding-right: 25px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.logga{
+    position: fixed;
+    margin: 10px;
+    background-color: slategray;
+    border-radius: 20px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.links a{
+    color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.links a:hover{
+    color: white;
+    font-size: large;
+    transition: 0.3s;
+    background-color: slateblue;
+}
+.main{
+    height: auto;
+    width: 100vw;
+    background: linear-gradient(to bottom, lightblue, gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.main img{
+    min-width: 300px;
+    animation: popup 1.5s;
+}
+.maindesc{
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, lightblue, gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.desctext{
+    width: 800px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px;
+    font-size: large;
+    animation: popup 1.5s;
+}
+@keyframes popup {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    50%{
+        opacity: 20;
+    }
+    100%{
+        opacity: 100;
+        transform: translateY(0px);
+    }
+}
+.text a{
+    transition: 0.2s;
+    color: white;
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: slateblue;
+    border-radius: 20px;
+    
+}
+.text a:hover{
+    display: inline-block;
+    transition: 0.2s;
+    color: white;
+    background-color: slategray;
+    transform: scale(1.12);
+}
+.main img{
+    border: 5px solid black;
+    width: 30vw;
+    border-radius: 30px;
+}
+.second{
+    padding-top: 200px;
+    height: 300px;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.second img{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.previews{
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: small;
+    margin: 6vw;
+}
+.previews a{
+    transition: 0.2s;
+    display: block;
+    margin-bottom: 80px;
+    height: 25vw;
+    max-height: 200px;
+    width: 25vw;
+    max-width: 200px;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.previews h2{
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.previews img:hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.previews img{
+    width: 25vw;
+    max-width: 200px;
+    border-radius: 20px;
+}
+.vara{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 8vw;
+}
+.mainshop{
+    padding-top: 100px;
+    height: auto;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background: linear-gradient(to bottom, lightblue, gray);
+}
+.beskrivande{
+    margin: 100px;
+    width: 80vw;
+    text-align: center;
+}
+.kontakt{
+    margin-left: 40px;
+    text-align: center;
+}
+.totjava{
+    margin-bottom: 160px;
+    font-size: x-large;
+}
